@@ -30,3 +30,9 @@ return this.firstName + " " + this.lastName;
 document.getElementById("demo").innerHTML = person.fullName(); // "John Doe"
 //若没有()则返回function，结果为"function () { return this.firstName + " " + this.lastName; }"
 
+
+(3)定义的new之后必然是Object:
+
+var x = new String();        // Declares x as a String object
+var y = new Number();        // Declares y as a Number object
+var z = new Boolean();      // Declares z as a Boolean object
